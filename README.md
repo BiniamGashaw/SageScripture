@@ -4,3 +4,4 @@ This AI-powered chatbot, rooted in biblical teachings and philosophical wisdom, 
 Task = Utilizie Machine Learning and expand upon this by making a functional chat bot, then getting it into an app to publish, eventally on the app store.
 
 Master branch is connected to production so only push to master when making public changes.
+Eventually, use the Bible app to be able to pull up the whole scripture and passage when referencing.
