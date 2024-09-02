@@ -2,21 +2,30 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  font-family: 'Georgia', serif;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Tgc5lOv5ABGQD16SQyESO7aXO6aoBV2l6A&s') no-repeat center center;
+  background-size: cover;
+  border: 10px solid #8B4513; /* Wood border color */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #FFF8DC; /* Cornsilk color to match the leather */
+  font-size: 2.5em;
+  text-shadow: 2px 2px #8B4513; /* Wood-like shadow */
+  margin-bottom: 20px;
 }
 
 .chat-container {
   height: 400px;
   overflow-y: auto;
-  border: 1px solid #ddd;
+  border: 2px solid #8B4513; /* Wood border color */
+  background-color: rgba(255, 248, 220, 0.8); /* Cornsilk background with transparency */
   padding: 10px;
   margin-bottom: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .message {
@@ -28,16 +37,18 @@ h1 {
 }
 
 .user {
-  background-color: #007bff;
+  background-color: #8B4513; /* Wood color */
   color: white;
   align-self: flex-end;
   margin-left: auto;
+  border: 2px solid #D2B48C; /* Tan border */
 }
 
 .bot {
-  background-color: #f1f1f1;
+  background-color: #FFF8DC; /* Cornsilk color */
   color: black;
   align-self: flex-start;
+  border: 2px solid #8B4513; /* Wood border */
 }
 
 form {
@@ -48,21 +59,22 @@ input {
   flex-grow: 1;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ddd;
+  border: 2px solid #8B4513; /* Wood border */
   border-radius: 5px 0 0 5px;
+  background-color: #FFF8DC; /* Cornsilk background */
 }
 
 button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #007bff;
+  background-color: #8B4513; /* Wood color */
   color: white;
-  border: none;
+  border: 2px solid #8B4513; /* Wood border */
   border-radius: 0 5px 5px 0;
   cursor: pointer;
 }
 
 button:disabled {
-  background-color: #cccccc;
+  background-color: #A0522D; /* Darker wood color for disabled state */
   cursor: not-allowed;
 }

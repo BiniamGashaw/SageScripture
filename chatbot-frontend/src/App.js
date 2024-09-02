@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
@@ -28,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>AI Chatbot</h1>
+      <h1>SageScripture</h1>
       <div className="chat-container">
         {messages.map((message, index) => (
           <div key={index} className={`message ${message.isUser ? 'user' : 'bot'}`}>
